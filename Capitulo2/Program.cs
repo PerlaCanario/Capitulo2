@@ -13,8 +13,10 @@ namespace Capitulo2
             Console.WriteLine("Calculo de Perimetro\n");
             Console.Write("Dijite la cantidad de lados: ");
             a = int.Parse(Console.ReadLine());
+
             Console.Write("Dijite el tamaño de un lado: ");
             b = int.Parse(Console.ReadLine());
+
             resultado = a * b;
             Console.Write("Su resultado es:{0}", resultado);
 
@@ -22,8 +24,10 @@ namespace Capitulo2
 
             Console.Write("Dijite los Grado: ");
             grado = double.Parse(Console.ReadLine());
+
             radiane = grado * 3.14;
             radiane /= 180;
+
             Console.Write("Usted tiene {0} Radiane", radiane, "\n \n");
 
             Console.WriteLine("\n \n Convercion de Divisa\n");
